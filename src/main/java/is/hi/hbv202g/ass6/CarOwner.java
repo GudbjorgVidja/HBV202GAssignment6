@@ -11,12 +11,9 @@ public class CarOwner {
         theOwnedCar = ownedCar;
     }
 
+
     String getName() {
         return theName;
-    }
-    
-    String getNameOfCar() {
-        return theOwnedCar.name;
     }
 
 }
